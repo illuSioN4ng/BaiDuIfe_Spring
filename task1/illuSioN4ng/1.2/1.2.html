@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>illuSioN4ng's IFE task1.1</title>
+    <link rel="stylesheet" href="./style/1.2.css"/>
 </head>
 <body>
 <!--<h1>网站一级标题</h1>-->
@@ -52,7 +53,7 @@
             <span>文章发表时间</span>
         </header>
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<br/>换行了<br/>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a
-                href="http://ife.baidu.com">这是一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+                    href="http://ife.baidu.com">这是一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
         <img src="./images/example.jpg" alt="这是一张图片"/>
         <ol>
             <li>项目列表一</li>
@@ -166,31 +167,53 @@
     <h1>这以后是一个侧栏，这是侧栏的标题</h1>
     <!--<h2>侧栏注册窗口标题</h2>-->
     <form>
-        <label for="email">请输入邮箱地址：</label>
-        <input type="email" name="email" id="email" placeholder="这是一个文本输入框"><br>
-        <p> 邮箱地址请安要求格式输入</p><br>
-        <label for="password"> 请输入密码：</label>
-        <input type="text" name="password" id="password" placeholder="这是一个文本输入框">
-        <label for="passwordConfirm">请重复输入密码：</label>
-        <input type="text" name="passwordConfirm" id="passwordConfirm" placeholder="这是一个文本输入框"><br>
-        <p>密码为6到16为英文数字</p><br>
-        <label> 性别：</label>
-        <input name="sex" id="man" type="radio" checked><label for="man">男</label>
-        <input name="sex" id="woman" type="radio"><label for="woman">女</label>
-        <label for="city">城市：</label>
-        <select name="city" id="city">
-            <option value="beijing" selected>北京</option>
-            <option value="shanghai">上海</option>
-            <option value="chengdu">成都</option>
-            <option value="hefei">合肥</option>
-        </select>
-        <label>爱好：</label>
-        <input type="checkbox" name="sport" id="sport"><label for="sport">运动</label>
-        <input type="checkbox" name="art" id="art"><label for="art">艺术</label>
-        <input type="checkbox" name="science" id="science"><label for="science">科学</label>
-        <label for="selfDescription">个人描述：</label>
-        <textarea name="selfDescription" id="selfDescription" rows="2" cols="30" >这是一个多文本输入框，请输个人入您的描述</textarea>
-        <button type="submit">确认提交</button>
+        <table>
+            <tr>
+                <td><label for="email">请输入邮箱地址：</label></td>
+                <td><input type="email" name="email" id="email" placeholder="这是一个文本输入框"><br></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>邮箱地址请安要求格式输入</td>
+            </tr>
+            <tr>
+                <td><label for="password"> 请输入密码：</label></td>
+                <td><input type="password" name="password" id="password" placeholder="这是一个文本输入框"></td>
+            </tr>
+            <tr>
+                <td><label for="passwordConfirm">请重复输入密码：</label></td>
+                <td><input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="这是一个文本输入框"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>密码为6到16为英文数字</td>
+            </tr>
+            <tr>
+                <td><label> 性别：</label></td>
+                <td><input name="sex" id="man" type="radio" checked><label for="man">男</label>
+                    <input name="sex" id="woman" type="radio"><label for="woman">女</label></td>
+            </tr>
+            <tr>
+                <td><label for="city">城市：</label></td>
+                <td><select name="city" id="city">
+                    <option value="beijing" selected>北京</option>
+                    <option value="shanghai">上海</option>
+                    <option value="chengdu">成都</option>
+                    <option value="hefei">合肥</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>爱好：</label></td>
+                <td><input type="checkbox" name="sport" id="sport"><label for="sport">运动</label>
+                    <input type="checkbox" name="art" id="art"><label for="art">艺术</label>
+                    <input type="checkbox" name="science" id="science"><label for="science">科学</label></td>
+            </tr>
+            <tr>
+                <td><label for="selfDescription">个人描述：</label></td>
+                <td><textarea name="selfDescription" id="selfDescription">这是一个多文本输入框，请输个人入您的描述</textarea></td>
+            </tr>
+        </table>
+        <button type="submit" class="submit">确认提交</button>
     </form>
 </section>
 <footer>版权所有&copy</footer>

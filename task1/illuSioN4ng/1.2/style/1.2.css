@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: black url('../images/logo.png') no-repeat;
+    line-height: 50px;
+}
+
+.navBar{
+    background: black url('../images/logo.png') no-repeat;
+}
+
+nav ol{
+    list-style: none;
+}
+
+nav li{
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+nav a:link, nav a:visited{
+    color: white;
+}
+
+nav a:hover, nav a:active{
+    color: #666;
+}
+
+.clr{
+    clear: both;
+}
+
+article{
+    border: solid 1px #999;
+    margin: 20px auto;
+    width: 95%;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+h2{
+    color: #c5cbc7;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+section header{
+    color: #768685;
+    font-size: 14px;
+    padding: 10px;
+}
+
+p{
+    text-indent: 2em;
+    padding: 10px;
+}
+
+ol{
+    list-style: none;
+    /*padding: 15px;*/
+}
+
+ol li{
+    padding: 10px;
+}
+
+figure{
+    width: 200px;
+    height: 200px;
+    border: solid 1px #ccc;
+    margin: 25px 80px;
+}
+
+figcaption{
+    padding: 10px;
+    text-align: center;
+}
+figure img{
+    width: 180px;
+    height: 150px;
+    margin: auto 10px;
+}
+
+article ol{
+    margin: 0px 50px;
+    list-style: decimal;
+}
+
+article table{
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    border-collapse:collapse;
+}
+article thead tr{
+    background-color: #000;
+    color: #fff;
+}
+
+article tr{
+    border-left: solid 1px #999;
+    border-bottom: solid 1px #999;
+}
+
+article th, td{
+    padding: 5px;
+}
+
+article tfoot{
+    background-color: #999;
+}
+
+.sideBar{
+    width: 95%;
+    border: solid 1px #999;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.sideBar h1{
+    border-left: solid 5px #ccc;
+}
+
+form{
+    margin: 10px auto;
+    width: 100%;
+}
+
+form textarea{
+    width: 600px;
+    height: 100px;
+}
+form tr td:first-child{
+    width: 40%;
+    text-align: right;
+}
+.submit{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3355d0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}

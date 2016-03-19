@@ -1,5 +1,4 @@
-## This is a readme 
-### include self code review and learningnote
+## This is task1.1 readme 
 注意页面语义化布局    
 1. article、section等    
 2. figure标签的应用    
