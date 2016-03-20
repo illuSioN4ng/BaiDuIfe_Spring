@@ -1,0 +1,52 @@
+article{
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #999;
+    margin: 20px;
+    font-family: 微软雅黑;
+}
+
+article img{
+    width: 80px;
+    height: 80px;
+    border: solid 1px #999;
+}
+
+.left{
+    float: left;
+    width: 158px;
+    border: solid 1px #999;
+    padding: 20px;
+}
+
+.teamName{
+    float: right;
+    width: 58px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.right{
+    float: right;
+    width: 78px;
+    border: solid 1px #999;
+    padding: 20px;
+}
+
+.personLogo{
+    margin-bottom: 20px;
+}
+
+.lastLogo{
+    margin-bottom: 0px;
+}
+.middle{
+    margin: 0 140px 0 220px;
+    border: solid 1px #999;
+    padding: 20px;
+}
+
+.clr{
+    clear: both;
+}
