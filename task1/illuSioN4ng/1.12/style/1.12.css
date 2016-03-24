@@ -1,0 +1,115 @@
+body, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    font-weight: 700;
+}
+
+thead{
+    background-color: #000;
+    color: white;
+    text-align: left;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(202,207,201);
+}
+
+tbody tr:nth-child(-n+3){
+    color: rgb(182,46,46);
+}
+
+
+/*input动画*/  
+.inpt{
+    width: 100px;
+    transition:width 2s;
+    -moz-transition:width 2s; /* Firefox 4 */
+    -webkit-transition:width 2s; /* Safari and Chrome */
+    -o-transition:width 2s; /* Opera */
+    margin-top: 30px;
+}
+
+.inpt:focus{
+    width: 200px;
+}
+
+/*Banner图轮播效果*/
+.wrap {
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+}
+
+.slider, .banner-control {
+    position: absolute;
+}
+
+.slider, .banner-control a {
+    text-align: center;
+}
+
+.wrap, .slider, .banner-control {
+    overflow: hidden;
+}
+
+.slider {
+    width: 300%;
+    color: #fff;
+    font-size: 0;
+    transition: 0.5s left;
+}
+
+.slider li {
+    width: 300px;
+    height: 100%;
+    display: inline-block;
+    list-style: none;
+    font: bold 100px/2 "Microsoft Yahei";
+}
+
+.slider li:nth-child(1) {
+    background-color: #6bacef;
+}
+
+.slider li:nth-child(2) {
+    background-color: #297cd3;
+}
+
+.slider li:nth-child(3) {
+    background-color: #01254a;
+}
+
+#fir:target~.slider{
+    left: 0
+}
+#sec:target~.slider{
+    left: -100%;
+}
+#thr:target~.slider{
+    left: -200%;
+}
+
+.banner-control {
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.banner-control a {
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);/*兼容ie5、6、7、8、9*/
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+}
