@@ -8,5 +8,5 @@
 以 BootStrap 的网格系统为例，DOM 元素类名形如 col-md-4；其中 col 是“列” column 的缩写；md 是 medium 的缩写，适用于应屏幕宽度大于 768px 的场景；4 是占四栏的意思。因此，col-md-4 的意思是，在屏幕宽度大于 768px 时，该元素占四栏。
 
 ## 注意：
-如何处理每个box之间的间距？[yyqqhh](http://ife.baidu.com/review/detail?workId=291)    
+如何处理每个box之间的间距？（思路来自于[yyqqhh](http://ife.baidu.com/review/detail?workId=291)）    
 用父元素适应百分比宽度，box-sizing 为border-box，padding为10px。这样加上container的padding 10px，正好为20px. inner div的间距同理为20px（两倍padding）。    
