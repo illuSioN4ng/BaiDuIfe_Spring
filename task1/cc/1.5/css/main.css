@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-color:rgb(222,222,222);
+}
+
+nav{
+	background-color:rgb(51,51,51);
+	height: 80px; 
+	line-height:80px;
+	position: relative;
+	width: 100%;
+}
+
+nav img{
+	height: 61px;
+	width: 180px;
+	margin-left:80px;
+	display: inline-block;
+	position: absolute;
+	top:8px;
+}
+
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:white;
+	background: url('../images/bullet.png') no-repeat;
+	padding-left:18px;
+}
+
+nav ul li a:active{
+	color: #666;
+}
+
+article{
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-right: 640px;
+	padding:40px 0;
+	background-color: white;
+  	box-shadow: 3px 3px 3px rgb(132,132,132);  
+}
+
+article h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+article h2{
+    font-size: 22px;
+    padding: 15px;
+    color: rgb(84,84,84);
+}
+
+article span{
+    font-size: 14px;
+    padding: 15px;
+    color: rgb(112,112,112);
+}
+
+article p{
+	text-indent: 2em;
+	padding: 15px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+article img{
+	padding-left:15px;
+}
+
+article ul{
+    list-style: none;
+}
+
+article ul li{
+    padding-left: 2em;
+    padding-top: 15px;
+}
+
+article figure{
+	border: 1px solid #ccc;
+	margin-left: 80px;
+	margin-bottom: 40px;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+}
+
+article figure figcaption{
+	text-align: center;
+	padding-top: 5px;
+}
+
+article figure img{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+article section{
+	margin: 20px;
+}
+
+article section ol{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+
+article section ol li{
+    margin-top: 10px;
+}
+
+article section label{
+	font-weight: bold;
+}
+
+article section table{
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    border-collapse:collapse;
+    border:1px solid #ccc; 
+}
+
+article section table thead{
+	background-color:rgb(51,51,51);
+	font-weight:bold;
+	font-size:large;
+	color:white; 
+}
+
+article section table tfoot{
+	background-color:rgb(204,204,204);
+	font-weight:bold;
+	font-size:large; 
+}
+
+article th, td{
+    padding: 5px;
+}
+
+aside{
+	padding:20px;
+	background-color: white;
+	width: 540px; 
+  	box-shadow: 3px 3px 3px rgb(132,132,132);
+  	position: absolute;
+  	top:111px;
+  	right:30px; 
+}
+
+aside h1{
+	border-left: solid 3px #ccc;
+	padding: 10px;
+}
+
+aside section form{
+	margin: 10px auto;
+    width: 100%;
+}
+
+form textarea{
+    width: 350px;
+    height: 100px;
+}
+
+form tr td:first-child{
+    width: 40%;
+    text-align: right;
+}
+
+.submit{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3355d0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
