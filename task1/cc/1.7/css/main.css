@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color:#fff;
+    height: 50px; 
+    line-height:50px;
+    padding-right: 65px;
+    position: relative;
+}
+
+.logo{
+    height: 31px;
+    width: 104px;
+    position: absolute;
+    left:60px; 
+    top: 15px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline;
+}
+
+ul a{
+    text-decoration: none;
+    color:#787b83;
+    padding:0 9px;
+    font:14px "微软雅黑";
+}
+
+.checked{
+    color: #e74f4d;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #e74f4d;
+}
+nav li img{
+    display: inline-block;
+    padding-bottom: -1px;  
+}
+
+.login{
+    color: #e74f4d;
+    padding-left: 6px;
+}
+
+.time{
+    background: url('../images/Time.png') no-repeat;
+    width: 1280px;
+    height: 690px;
+    margin-top: 9px; 
+}
+
+.time button{
+    background: url('../images/button.png') no-repeat;
+    width: 331px;
+    height: 65px;
+    margin:430px 0 0 125px;
+    border:none;
+}
+
+.second{
+    background: url('../images/second.png') no-repeat;
+    width: 1280px;
+    height: 251px;
+}
